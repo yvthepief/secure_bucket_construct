@@ -61,6 +61,7 @@
     "constructs": "^10.0.5"
   },
   "keywords": [
+    "AWS",
     "cdk",
     "enterprise",
     "projen",
