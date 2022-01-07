@@ -14,6 +14,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
     's3',
     'secure bucket',
     'enterprise',
+    'AWS'
   ],
   packageName: 'enterprise-secure-bucket',
   vscode: true,
