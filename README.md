@@ -1,4 +1,8 @@
+[![npm version](https://badge.fury.io/js/enterprise-secure-bucket.svg)](https://badge.fury.io/js/enterprise-secure-bucket)
+[![release](https://github.com/yvthepief/secure_bucket_construct/actions/workflows/release.yml/badge.svg)](https://github.com/yvthepief/secure_bucket_construct/actions/workflows/release.yml)
 # Secure Bucket Construcs
+
+Blog: https://yvovanzee.nl/secure-s3-bucket-construct-with-cdk-version-2
 
 This Secure Bucket construcs extends the S3 Bucket construct. When using this construct, you will create a S3 bucket with default security best practises enabled. These are:
 
