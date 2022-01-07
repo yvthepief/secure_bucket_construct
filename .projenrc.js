@@ -6,11 +6,15 @@ const project = new awscdk.AwsCdkConstructLibrary({
   name: 'secure_bucket_construct',
   repositoryUrl: 'https://github.com/yvthepief/secure_bucket_construct.git',
   cdkVersion: '2.4.0',
-  peerDependencies: [
-    'aws-cdk-lib',
-    'constructs',
-  ],
+  // For cdk version 2 we use major version 2
+  majorVersion: 2,
+  defaultReleaseBranch: 'main',
+  // peerDependencies: [
+  //   'aws-cdk-lib',
+  //   'constructs',
+  // ],
   packageName: 'enterprise-secure-bucket',
   vscode: true,
+  releaseToNpm: true,
 });
 project.synth();
