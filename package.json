@@ -61,7 +61,11 @@
     "constructs": "^10.0.5"
   },
   "keywords": [
-    "cdk"
+    "cdk",
+    "enterprise",
+    "projen",
+    "s3",
+    "secure bucket"
   ],
   "main": "lib/index.js",
   "license": "Apache-2.0",

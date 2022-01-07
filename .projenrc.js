@@ -9,10 +9,12 @@ const project = new awscdk.AwsCdkConstructLibrary({
   // For cdk version 2 we use major version 2
   majorVersion: 2,
   defaultReleaseBranch: 'main',
-  // peerDependencies: [
-  //   'aws-cdk-lib',
-  //   'constructs',
-  // ],
+  keywords: [
+    'projen',
+    's3',
+    'secure bucket',
+    'enterprise',
+  ],
   packageName: 'enterprise-secure-bucket',
   vscode: true,
   releaseToNpm: true,
