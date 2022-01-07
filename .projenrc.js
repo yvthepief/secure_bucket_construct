@@ -10,5 +10,6 @@ const project = new awscdk.AwsCdkConstructLibrary({
     'aws-cdk-lib',
     'constructs',
   ],
+  packageName: 'enterprise_secure_bucket',
 });
 project.synth();

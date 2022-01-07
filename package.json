@@ -1,5 +1,5 @@
 {
-  "name": "secure_bucket_construct",
+  "name": "enterprise_secure_bucket",
   "repository": {
     "type": "git",
     "url": "https://github.com/yvthepief/secure_bucket_construct.git"
