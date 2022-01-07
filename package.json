@@ -2,7 +2,7 @@
   "name": "secure_bucket_construct",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yvo.van.zee/secure_bucket_construct.git"
+    "url": "https://github.com/yvthepief/secure_bucket_construct.git"
   },
   "scripts": {
     "build": "npx projen build",
@@ -14,6 +14,8 @@
     "docgen": "npx projen docgen",
     "eslint": "npx projen eslint",
     "package": "npx projen package",
+    "package-all": "npx projen package-all",
+    "package:js": "npx projen package:js",
     "post-compile": "npx projen post-compile",
     "pre-compile": "npx projen pre-compile",
     "release": "npx projen release",
@@ -28,35 +30,34 @@
   },
   "author": {
     "name": "Yvo van Zee",
-    "email": "yvo.van.zee@oblcc.com",
+    "email": "yvo@yvovanzee.nl",
     "organization": false
   },
   "devDependencies": {
-    "@types/jest": "*",
+    "@types/jest": "^27.4.0",
     "@types/node": "^12",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
-    "aws-cdk-lib": "2.1.0",
+    "aws-cdk-lib": "2.4.0",
     "constructs": "10.0.5",
     "eslint": "^8",
     "eslint-import-resolver-node": "^0.3.6",
     "eslint-import-resolver-typescript": "^2.5.0",
-    "eslint-plugin-import": "^2.25.3",
-    "jest": "^27.4.5",
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.4.7",
     "jest-junit": "^13",
-    "jsii": "^1.49.0",
-    "jsii-diff": "^1.49.0",
-    "jsii-docgen": "^4.2.19",
-    "jsii-pacmak": "^1.49.0",
+    "jsii": "^1.51.0",
+    "jsii-diff": "^1.51.0",
+    "jsii-docgen": "^4.2.33",
     "json-schema": "^0.4.0",
     "npm-check-updates": "^12",
-    "projen": "^0.45.4",
+    "projen": "^0.46.3",
     "standard-version": "^9",
     "ts-jest": "^27.1.2",
     "typescript": "^4.5.4"
   },
   "peerDependencies": {
-    "aws-cdk-lib": "^2.1.0",
+    "aws-cdk-lib": "^2.4.0",
     "constructs": "^10.0.5"
   },
   "bundledDependencies": [],
