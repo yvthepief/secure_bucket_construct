@@ -14,7 +14,7 @@ These best practises are enforced. When creating a SecureBucket with for example
 
 ## install package
 ```bash
-npm install @
+npm install @enterprise_secure_bucket
 ```
 
 
@@ -24,7 +24,7 @@ npm install @
 // Import necessary packages
 import { Stack, StackProps } from 'aws-cdk-lib';
 import { Construct } from 'constructs';
-import { SecureBucket } from 'secure-bucket';
+import { SecureBucket } from 'enterprise-secure-bucket';
 
 export class SecureBucketStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
