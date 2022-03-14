@@ -6,7 +6,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   defaultReleaseBranch: 'main',
   name: 'secure_bucket_construct',
   repositoryUrl: 'https://github.com/yvthepief/secure_bucket_construct.git',
-  cdkVersion: '2.4.0',
+  cdkVersion: '2.16.0',
   // For cdk version 2 we use major version 2
   majorVersion: 2,
   defaultReleaseBranch: 'main',

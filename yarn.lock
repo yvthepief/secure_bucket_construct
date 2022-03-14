@@ -1130,17 +1130,17 @@ available-typed-arrays@^1.0.5:
   resolved "https://registry.yarnpkg.com/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz#92f95616501069d07d10edb2fc37d3e1c65123b7"
   integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
 
-aws-cdk-lib@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.4.0.tgz#fcd08689d911431b4e6f22e8e51d11bd6457c5df"
-  integrity sha512-GszgLG2VWc3k4/FHxeJaCFD/fmMUhKdWqyJCJtsByGHJG70r1Oz9+OteO8ctVqaErDiDp4rcT0jjmXz76dw0vw==
+aws-cdk-lib@2.16.0:
+  version "2.16.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.16.0.tgz#51b2d07bac27f5401fda7ccc52d08331289f8558"
+  integrity sha512-qQlSNat5/HPNFbExZ8LTVDLOZaI+8O2Uv6/vsp87gqfapTqu6MM9m7MouTnFd+f3JiAdTBDu7A0q802oZSH6JA==
   dependencies:
     "@balena/dockerignore" "^1.0.2"
     case "1.6.3"
     fs-extra "^9.1.0"
     ignore "^5.2.0"
     jsonschema "^1.4.0"
-    minimatch "^3.0.4"
+    minimatch "^3.1.2"
     punycode "^2.1.1"
     semver "^7.3.5"
     yaml "1.10.2"
@@ -4123,7 +4123,7 @@ min-indent@^1.0.0:
   resolved "https://registry.yarnpkg.com/min-indent/-/min-indent-1.0.1.tgz#a63f681673b30571fbe8bc25686ae746eefa9869"
   integrity sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==
 
-minimatch@^3.0.4:
+minimatch@^3.0.4, minimatch@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
   integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
