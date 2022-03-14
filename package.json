@@ -1,5 +1,5 @@
 {
-  "name": "enterprise-secure-bucket",
+  "name": "secure_bucket_construct",
   "repository": {
     "type": "git",
     "url": "https://github.com/yvthepief/secure_bucket_construct.git"
@@ -117,7 +117,8 @@
     "outdir": "dist",
     "targets": {
       "python": {
-        "distName": "@yvthepief/secure_s3_bucket"
+        "distName": "secure-bucket-construct",
+        "module": "secure_bucket_construct"
       }
     },
     "tsc": {

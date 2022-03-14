@@ -2,37 +2,37 @@
 
 ## Constructs <a name="Constructs" id="constructs"></a>
 
-### SecureBucket <a name="enterprise-secure-bucket.SecureBucket" id="enterprisesecurebucketsecurebucket"></a>
+### SecureBucket <a name="secure_bucket_construct.SecureBucket" id="securebucketconstructsecurebucket"></a>
 
-#### Initializers <a name="enterprise-secure-bucket.SecureBucket.Initializer" id="enterprisesecurebucketsecurebucketinitializer"></a>
+#### Initializers <a name="secure_bucket_construct.SecureBucket.Initializer" id="securebucketconstructsecurebucketinitializer"></a>
 
 ```typescript
-import { SecureBucket } from 'enterprise-secure-bucket'
+import { SecureBucket } from 'secure_bucket_construct'
 
 new SecureBucket(scope: Construct, id: string, props?: BucketProps)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| [`scope`](#enterprisesecurebucketsecurebucketparameterscope)<span title="Required">*</span> | [`constructs.Construct`](#constructs.Construct) | *No description.* |
-| [`id`](#enterprisesecurebucketsecurebucketparameterid)<span title="Required">*</span> | `string` | *No description.* |
-| [`props`](#enterprisesecurebucketsecurebucketparameterprops) | [`aws-cdk-lib.aws_s3.BucketProps`](#aws-cdk-lib.aws_s3.BucketProps) | *No description.* |
+| [`scope`](#securebucketconstructsecurebucketparameterscope)<span title="Required">*</span> | [`constructs.Construct`](#constructs.Construct) | *No description.* |
+| [`id`](#securebucketconstructsecurebucketparameterid)<span title="Required">*</span> | `string` | *No description.* |
+| [`props`](#securebucketconstructsecurebucketparameterprops) | [`aws-cdk-lib.aws_s3.BucketProps`](#aws-cdk-lib.aws_s3.BucketProps) | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="enterprise-secure-bucket.SecureBucket.parameter.scope" id="enterprisesecurebucketsecurebucketparameterscope"></a>
+##### `scope`<sup>Required</sup> <a name="secure_bucket_construct.SecureBucket.parameter.scope" id="securebucketconstructsecurebucketparameterscope"></a>
 
 - *Type:* [`constructs.Construct`](#constructs.Construct)
 
 ---
 
-##### `id`<sup>Required</sup> <a name="enterprise-secure-bucket.SecureBucket.parameter.id" id="enterprisesecurebucketsecurebucketparameterid"></a>
+##### `id`<sup>Required</sup> <a name="secure_bucket_construct.SecureBucket.parameter.id" id="securebucketconstructsecurebucketparameterid"></a>
 
 - *Type:* `string`
 
 ---
 
-##### `props`<sup>Optional</sup> <a name="enterprise-secure-bucket.SecureBucket.parameter.props" id="enterprisesecurebucketsecurebucketparameterprops"></a>
+##### `props`<sup>Optional</sup> <a name="secure_bucket_construct.SecureBucket.parameter.props" id="securebucketconstructsecurebucketparameterprops"></a>
 
 - *Type:* [`aws-cdk-lib.aws_s3.BucketProps`](#aws-cdk-lib.aws_s3.BucketProps)
 
@@ -44,11 +44,11 @@ new SecureBucket(scope: Construct, id: string, props?: BucketProps)
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| [`bucket`](#enterprisesecurebucketsecurebucketpropertybucket)<span title="Required">*</span> | [`aws-cdk-lib.aws_s3.Bucket`](#aws-cdk-lib.aws_s3.Bucket) | *No description.* |
+| [`bucket`](#securebucketconstructsecurebucketpropertybucket)<span title="Required">*</span> | [`aws-cdk-lib.aws_s3.Bucket`](#aws-cdk-lib.aws_s3.Bucket) | *No description.* |
 
 ---
 
-##### `bucket`<sup>Required</sup> <a name="enterprise-secure-bucket.SecureBucket.property.bucket" id="enterprisesecurebucketsecurebucketpropertybucket"></a>
+##### `bucket`<sup>Required</sup> <a name="secure_bucket_construct.SecureBucket.property.bucket" id="securebucketconstructsecurebucketpropertybucket"></a>
 
 ```typescript
 public readonly bucket: Bucket;

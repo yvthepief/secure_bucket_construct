@@ -1,4 +1,5 @@
 const { awscdk } = require('projen');
+const PROJECT_NAME = 'enterprise-secure-bucket';
 const project = new awscdk.AwsCdkConstructLibrary({
   author: 'Yvo van Zee',
   authorAddress: 'yvo@yvovanzee.nl',
@@ -16,11 +17,11 @@ const project = new awscdk.AwsCdkConstructLibrary({
     'enterprise',
     'AWS',
   ],
-  packageName: 'enterprise-secure-bucket',
   vscode: true,
   releaseToNpm: true,
   publishToPypi: {
-    distName: '@yvthepief/secure_s3_bucket',
+    distName: 'secure-bucket-construct',
+    module: 'secure_bucket_construct',
   },
 });
 project.synth();
