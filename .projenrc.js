@@ -19,5 +19,8 @@ const project = new awscdk.AwsCdkConstructLibrary({
   packageName: 'enterprise-secure-bucket',
   vscode: true,
   releaseToNpm: true,
+  publishToPypi: {
+    distName: '@yvthepief/secure_s3_bucket',
+  },
 });
 project.synth();
