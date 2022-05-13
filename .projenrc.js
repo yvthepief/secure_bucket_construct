@@ -24,4 +24,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
     module: 'secure_bucket_construct',
   },
 });
+project.package.addField('resolutions', {
+  '@types/prettier': '2.6.0',
+});
 project.synth();
