@@ -6,7 +6,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   defaultReleaseBranch: 'main',
   name: 'secure_bucket_construct',
   repositoryUrl: 'https://github.com/yvthepief/secure_bucket_construct.git',
-  cdkVersion: '2.16.0',
+  cdkVersion: '2.27.0',
   // For cdk version 2 we use major version 2
   majorVersion: 2,
   defaultReleaseBranch: 'main',
@@ -24,7 +24,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
     module: 'secure_bucket_construct',
   },
 });
-project.package.addField('resolutions', {
-  '@types/prettier': '2.6.0',
-});
+// project.package.addField('resolutions', {
+//   '@types/prettier': '2.6.0',
+// });
 project.synth();
